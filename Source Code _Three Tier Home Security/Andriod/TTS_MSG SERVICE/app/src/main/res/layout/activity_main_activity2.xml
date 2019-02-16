@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:id="@+id/MainLayout"
+    android:background="@drawable/fbg2"
+    android:padding="10dp"
+    android:gravity="bottom">
+
+    <Button
+        android:background="@android:color/background_dark"
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alert To Nearest Station"
+        android:textSize="30sp"
+        android:textColor="@android:color/white"
+        android:onClick="cancel"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:background="@android:color/background_dark"
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Exit"
+        android:textSize="30sp"
+        android:textColor="@android:color/white"
+        android:onClick="exit"
+        android:layout_margin="10dp"/>
+
+</LinearLayout>
